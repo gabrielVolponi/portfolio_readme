@@ -9,6 +9,7 @@ body {
   line-height: 1.5;
   word-wrap: break-word;
 }
+
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 2.5rem;
@@ -22,7 +23,11 @@ body {
   width: 80%;
   overflow-y: auto;          
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
+    font-size: 2.5rem;
+}
+
+h2, h3, h4, h5, h6 {
   color: #FFFFFF;
   margin-bottom: 0.5em;
 }
@@ -31,6 +36,59 @@ p, ol, ul {
   margin-bottom: 1em;
   color: #FFFFFF;
 }
+
+.stacks{
+    display: flex;
+    flex-direction: column;
+}
+
+.stacks ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.where_am_i{
+    display: flex;
+    flex-direction: column;
+}
+
+.where_am_i ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+i{
+    font-size: 2.5rem;
+    color: #1f6feb ;
+}
+
+i:hover{
+    color: whitesmoke;
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.links_socials{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+
 
 code {
   background-color: #0d1117;
