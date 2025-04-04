@@ -80,40 +80,47 @@ i:hover {
 }
 
 i[data-icon="javascript"]:hover {
-  color: #f7df1e; /* Amarelo */
+  color: #f7df1e;
+  /* Amarelo */
 }
 
 i[data-icon="python"]:hover,
 i[data-icon="whatsapp"]:hover {
-  color: #4caf50; /* Verde */
+  color: #4caf50;
+  /* Verde */
 }
 
 i[data-icon="html"]:hover {
-  color: #e34c26; /* Vermelho */
+  color: #e34c26;
+  /* Vermelho */
 }
 
 i[data-icon="css"]:hover {
-  color: #2965f1; /* Azul */
+  color: #2965f1;
+  /* Azul */
 }
 
 i[data-icon="wind"]:hover,
 i[data-icon="linkedin"]:hover {
-  color: #00bfff; /* Azul-claro */
+  color: #00bfff;
+  /* Azul-claro */
 }
 
 i[data-icon="git"]:hover {
-  color: #f05133; /* Laranja avermelhado */
+  color: #f05133;
+  /* Laranja avermelhado */
 }
 
 i[data-icon="gitlab"]:hover {
-  color: #fc6d26; /* Laranja */
+  color: #fc6d26;
+  /* Laranja */
 }
 
 i[data-icon="figma"]:hover {
   background: linear-gradient(45deg, #00c4ff, #ff007f);
-  background-clip:text;
+  background-clip: text;
   color: transparent;
-  
+
 }
 
 i[data-icon="x"]:hover {
@@ -121,24 +128,25 @@ i[data-icon="x"]:hover {
   background-color: white;
   align-self: center;
   border-radius: 18px;
-  
-  
-}
 
-.socials {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
+
 }
 
 .links_socials {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 0;
+}
 
+.links_socials a i {
+  font-size: 5rem;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
 }
 
 .visual_Portfolio {
@@ -242,9 +250,15 @@ a:hover {
   ul {
     font-size: 1rem;
   }
+
   .stacks ul {
     flex-direction: column;
     align-items: center;
   }
-  
+
+  .socials ul {
+    display: flex;
+    text-align: center;
+  }
+
 }
