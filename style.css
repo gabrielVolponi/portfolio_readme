@@ -280,4 +280,15 @@ a:hover {
     display: none;
   }
 
+  .visual_Portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+    top: 1rem;
+  }
+
 }
