@@ -122,9 +122,41 @@ i[data-icon="x"]:hover {
   background-color: white;
   align-self: center;
   border-radius: 18px;
-
+ 
 
 }
+
+i[data-icon="github"]:hover {
+  color: #f512f5;
+  align-self: center;
+  border-radius: 18px;
+}
+
+
+i[data-icon="dribbble"]:hover {
+  color: #eb8deb;
+  align-self: center;
+  border-radius: 18px;
+
+}
+
+
+i[data-icon="mail"]:hover {
+  color: #d28398;
+  align-self: center;
+  border-radius: 18px;
+
+}
+
+
+i[data-icon="codex"]:hover {
+  color: #7e7d7e;
+  align-self: center;
+  border-radius: 18px;
+
+}
+
+
 
 .links_socials {
   list-style-type: none;
@@ -138,7 +170,7 @@ i[data-icon="x"]:hover {
 }
 
 .links_socials a i {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #FFFFFF;
   transition: all 0.3s ease-in-out;
 }
@@ -184,7 +216,7 @@ a:hover {
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 2.5rem;
-  } 
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -245,7 +277,7 @@ a:hover {
     text-align: center;
   }
 
-  
+
   code {
     display: none;
   }
