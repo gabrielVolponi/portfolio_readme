@@ -47,8 +47,8 @@ describe('Home Page Tests', () => {
   });
 
   it('Validate Responsive Design for Mobile', () => {
-    cy.viewport(480, 800); // Simulate mobile screen
-    cy.get('body').should('have.css', 'font-size', '24px'); // Adjust based on your CSS
+    cy.viewport(480, 800); 
+    cy.get('body').should('have.css', 'font-size', '24px'); 
     cy.get('.stacks ul').should('have.css', 'flex-direction', 'column');
   });
 
